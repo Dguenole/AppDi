@@ -35,3 +35,7 @@ jobs:
         with:
           name: appdi-windows
           path: src-tauri/target/release/bundle/windows
+      - name: Lister les fichiers pour debug
+        run: ls -R
+      - run: cd $GITHUB_WORKSPACE
+
