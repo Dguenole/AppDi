@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: appdi-windows
-          path: target/release/bundle/windows
+          path: target/release/bundle/windows/Appdi_0.1.0_x64_en-US.exe
       - name: Lister les fichiers pour debug
         run: ls -R
       - run: cd $GITHUB_WORKSPACE
